@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lustria';
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("/img/benson_bio.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.masthead {
+    margin-top: 5%;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+}
+
+#question {
+    position: fixed;
+    bottom: 5%;
+    left: 0px;
+}
+
+.wakeup {
+    color: white;
+}
