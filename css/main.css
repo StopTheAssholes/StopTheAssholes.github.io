@@ -7,10 +7,12 @@ html {
 
 body {
     font-family: 'Lustria';
-    min-height: 100%
+    min-height: 100%;
+    color: white;
     width: 100%;
     margin: 0px;
-    background-image: url("/img/benson_bio.jpg");
+    background-color: white;
+    background-image: url("/img/flatirons.jpeg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,18 +21,63 @@ body {
     background-attachment: fixed;
 }
 
-.masthead {
+.nav {
+    background: white;
+    color: black;
+    border-bottom-color: grey;
+}
+
+
+.benson {
+    width: 100%;
+}
+
+.highlight {
+    font-size: 1.33em;
+    font-weight: 3px;
+    text-decoration: underline;
+}
+
+.nav-item {
+    font-size: 1.5em;
+}
+
+.land-text {
+    font-size: 2em;
+    margin: .5em;
+    color: black;
+    text-align: justify;
+/*    text-shadow: 2px 2px 2px black;
+*/}
+
+
+a.nav-item {
+    color: black;
+}
+
+a.nav-item.is-tab:hover {
+    border-bottom-color: black;
+}
+
+.padder {
+    margin-top: 10%;
+}
+
+.namehead {
+    text-indent: .5em;
+}
+
+.info {
     margin-top: 5%;
-    color: white;
-    text-shadow: 3px 3px 2px black;
+    background: white;
 }
 
-#question {
-    position: fixed;
-    bottom: 5%;
-    left: 3%;
+.masthead {
+    margin: .25em;
+    color: black;
+    font-family: 'Oxygen';
+/*    text-shadow: 1px 1px 1px black;
+*/
 }
 
-.wakeup {
-    color: white;
-}
+
