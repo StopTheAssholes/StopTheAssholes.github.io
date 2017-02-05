@@ -33,7 +33,6 @@ body {
 }
 
 .highlight {
-    font-size: 1.33em;
     font-weight: 3px;
     text-decoration: underline;
 }
@@ -43,7 +42,7 @@ body {
 }
 
 .land-text {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: .5em;
     color: black;
     text-align: justify;
