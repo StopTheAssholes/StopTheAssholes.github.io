@@ -62,8 +62,9 @@ a.nav-item.is-tab:hover {
     margin-top: 10%;
 }
 
-.namehead {
+.is-brand {
     text-indent: .5em;
+    border: none;
 }
 
 .info {
@@ -82,4 +83,13 @@ li {
     margin-left: 1.5em;
 }
 
+a {
+    border-bottom: 1px dotted black;
+    color: black;
+}
+
+a:hover {
+    background-color: #cfb97d;
+    color: black;
+}
 
