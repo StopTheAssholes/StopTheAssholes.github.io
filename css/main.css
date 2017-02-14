@@ -93,3 +93,7 @@ a:hover {
     color: black;
 }
 
+.title {
+    line-height: 1.5em;
+}
+
