@@ -27,6 +27,21 @@ body {
     border-bottom-color: grey;
 }
 
+.indent {
+    margin-left: 1em;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+.ui-accordion-header-collapsed:before {
+    content: "+ ";
+}
+
+.ui-accordion-header-active:before {
+    content: "- ";
+}
 
 .benson {
     width: 100%;
@@ -43,6 +58,7 @@ body {
 
 .land-text {
     font-size: 1.5em;
+    padding-left: 1em;
     margin: .5em;
     color: black;
     text-align: justify;
@@ -60,6 +76,7 @@ a.nav-item.is-tab:hover {
 
 .padder {
     margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .is-brand {

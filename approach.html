@@ -3,7 +3,17 @@
     <link href="/css/bulma.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lustria|Oxygen" rel="stylesheet">
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $( function() {
+            $( "#accordion" ).accordion({
+            collapsible: true,
+            active: false,
+            heightStyle: "content"
+            });
+        } );
+    </script>
 
 </head>
 <nav class="nav">
@@ -15,21 +25,18 @@
         </div>
 
         <div class="nav-right">
-            <a class="nav-item is-tab" href="/issues.html">
-                Our Issues
+            <a class="nav-item is-tab" href="/approach.html">
+                Our Approach
             </a>
             <a class="nav-item is-tab" href="/benson.html">
-                Benson
+                Administrative Transparency
+            </a>
+            <a class="nav-item is-tab" href="/issues.html">
+                Issues
             </a>
             <a class="nav-item is-tab" href="/distefano.html">
-                DiStefano 
-            </a>
-            <a class="nav-item is-tab" href="/approach.html">
-                What's Our Approach?
-            </a>
-            <a class="nav-item is-tab" href="/news.html">
-                Updates
-            </a>            
+                Join Us
+            </a>          
         </div>
     </div>
 </nav>
@@ -37,12 +44,28 @@
     <div class="container">
         <div class="columns">
             <div class="column is-11 is-offset-1 padder info">
-                    <h1 class="masthead title is-1">What's Our Approach?</h1>
-                    <p class="land-text">We are not a special interest group, focused on single-perspective issues or targeted advocacy. Rather, we are a group pushing for larger changes within the administration and campus decision-making. Thus, we support other organizations, connect their efforts, and build a factual basis for all groups to understand how campus administrators are responding to and managing changes over time. Our strategies are meant to construct structures of accountability and transparency between administration, faculty, staff, and students. 
-                    <br><br>
-                    Ultimately our goals are to give more power to the faculty and students over administrative decisions and further give more power to students within departments to hold faculty accountable. We believe there are too many outstanding issues of accountability to advocate for one particular point (e.g., campus social climate, graduate student grievances, international student support, teaching quality). Thus, given the students’ and faculty’s primary role in funding this campus (tuition: 43.18%; grants: 20.01%), we believe they should have a say in how the campus is governed: Where our money is invested, how teachers are hired and reprimanded, and actionable accountability on holding to our bespoke values.</p>
+                    <h1 class="masthead title is-1">How and Why We Organize</h1>
+                    <p class="land-text">We are not a special interest group, focused on single-perspective issues. Rather, we are a group pushing for larger changes within the administration and campus decision-making. Thus, we support other organizations, connect their efforts, and build a factual basis for all groups to understand how campus administrators are responding to and managing changes over time. Our strategies are meant to construct structures of accountability and transparency between administration, faculty, staff, and students.</p>
                     <br>
-                    <p class="land-text">Actionable Power:</p>
+                    <h2 class="title is-3">Motivations</h2>
+                        <div id="accordion" class="indent">
+                            <h3 class="title is-4">Transparency</h3>
+                            <div>
+                                <p class="land-text">There are major gaps in knowledge between campus stakeholders regarding how the university operates and how the campus is handling particular issues. The university hierarchy is opaque and responsibility is distributed across a range of offices, committees, and task forces. With no in-press student or facult newspapers, there is a huge reliance on word-of-mouth and campus e-mail blasts to figure out how campus concerns are being addressed and who is responsible for acting on grievances. Examples of this difficulty involve the student climate survey data and campus budget data, which has been sought by student groups to no avail.<br/>We believe transparency is a basic functioning of any fair organization; especially a public university.</p>
+                            </div>
+                            <h3 class="title is-4">Accountability</h3>
+                            <div>
+                                <p class="land-text">Campus leadership has not been accountable to its own missions or values. Harassment and discrimination issues on campus have emerged again and again; often with egregious violation to our university's reporting policies. Issues that do get reported fall into a blackhole of bureaucracy where no clear response or timeline of actions emerges. As students, faculty, and staff vocalize campus problems, we believe it is the administration's responsibility to be explicit on how it is responding and how community members can follow up to be sure these actions occur.</p>
+                            </div>
+                            <h3 class="title is-4">Fairness</h3>
+                            <div>
+                                <p class="land-text">We want to see all campus communities and stakeholders given fair treatment and respect. We currently pay our graduate students $10,000 below a living wage for Boulder. As housing and cost of living inflate, the campus does not keep up by paying a fair wage. Further, as we expand our international student population and continue diversity initiatives, the focus is on the numbers and not on appropriate accommodation to be sure new students entering are receiving fair services. Even as a baseline, the campus has been overwhelmed with requests for mental health services that have pushed our staff at Wardenburg to its limits. However, student growth is being prioritized over service management.<br/>We ask CU to be fair in how it approaches its mission. Don't simply expand numbers, but be sure the services and opportunities provided are of fair quality and value for all.</p>
+                            </div>
+                        </div>
+                    <h2 class="title is-3">Actionable Power</h2>               
+                    <p class="land-text">Ultimately our goals are to give more power to the faculty and students over administrative decisions and further give more power to students within departments to hold faculty accountable. We believe there are too many outstanding issues of accountability to advocate for one particular point (e.g., campus social climate, graduate student grievances, international student support, teaching quality). Thus, given the students’ and faculty’s primary role in funding this campus (tuition: 43.18%; grants: 20.01%), we believe they should have a say in how the campus is governed: Where our money is invested, how teachers are hired and reprimanded, and actionable accountability on holding to our bespoke values.</p>
+                    <br>
+                    <p class="land-text">Accountability in Action:</p>
                     <ol class="land-text">
                         <li>Power changing hands through role abdication when accountability metrics are low</li>
                         <li>Review boards occupied by students and faculty to assess grievance mitigations and rate quality of response.</li>
@@ -50,9 +73,10 @@
                         <li>Transparency around misconduct reporting</li>
                         <li>Improved communication so all parties have equal information when treading through our bureaucracy to solve an issue</li>
                     </ol>
+                    <h2 class="title is-3">Coalition Building</h2> 
                     <p class="land-text">Being a broad initiative, we use many strategies to support the campus and place pressure on administrators. Some of them include working with local and national media outlets, supporting campus rallies and demonstrations, spread factual information about corruption and integrity concerns, and aiding allied groups into consensus networks to improve each of their relative power.
                     <br><br>
-                    If you’d like to be involved, have ideas, or useful information about accountability issues or corruption at CU, please contact us: <em>whoruscu@gmail.com</em></p>
+                    If you’d like to be involved, have ideas, or useful information about accountability issues or corruption at CU, please contact us: <em>whorunscu@gmail.com</em></p>
             </div>
         </div>
     </div>
